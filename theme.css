@@ -15,7 +15,10 @@ try to remember to put the class ".webdesigntuts-workshop" before every style de
 
 .webdesigntuts-workshop 
 {
-	background-color: rgba(); /* dark gray */
+	background-color: rgba(100, 100, 100, 1.0); /* dark gray */
+	width: 250px;
+	height: 200px;
+	float: left;
 }
 
 .webdesigntuts-workshop ul
@@ -30,14 +33,37 @@ try to remember to put the class ".webdesigntuts-workshop" before every style de
 	padding-bottom: 5px;
 }
 
+.webdesigntuts-workshop li:first-child
+{
+	padding-top: 0;
+}
+
+.webdesigntuts-workshop li:last-child
+{
+	padding-bottom: 0;
+}
+
 .webdesigntuts-workshop li a
 {
-	background-image: url('images/gun_metal.png');
+	background-image: url('images/stripe.png');
 	background-repeat: repeat-x repeat-y;
 	width: 100%;
-	padding: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 6px;
+	padding-left: 6px;
 	text-decoration: none;
-	color: rgba(); /* Yellow */
+	color: rgba(255, 239, 0, 1.0); /* Yellow */
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	transition: color 1.5s ease;
+	-webkit-transition: color 1.5s ease;
+}
+
+.webdesigntuts-workshop li a:hover
+{
+	color: rgba(255, 99, 71, 1.0);
 }
 
 /*
