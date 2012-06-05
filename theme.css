@@ -3,8 +3,8 @@ Throw some details in here - promote yourself!
 
 Author= James Pellerano 
 URL = http://japellerano.com 
-Theme = Make it snappy :)
-Theme description = Bit of a description - not an essay...							
+Theme = Construction
+Theme description = Yellow over striped background, on hover changes to orange.							
 */
 
 
@@ -15,7 +15,7 @@ try to remember to put the class ".webdesigntuts-workshop" before every style de
 
 .webdesigntuts-workshop 
 {
-	background-color: rgba(100, 100, 100, 1.0); /* dark gray */
+	background-color: rgba(75, 75, 75, 1.0); /* dark gray */
 	width: 250px;
 	height: 200px;
 	float: left;
@@ -29,8 +29,8 @@ try to remember to put the class ".webdesigntuts-workshop" before every style de
 
 .webdesigntuts-workshop li
 {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 .webdesigntuts-workshop li:first-child
@@ -54,16 +54,19 @@ try to remember to put the class ".webdesigntuts-workshop" before every style de
 	padding-left: 6px;
 	text-decoration: none;
 	color: rgba(255, 239, 0, 1.0); /* Yellow */
-	font-family: Helvetica;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	transition: color 1.5s ease;
 	-webkit-transition: color 1.5s ease;
+	-moz-transition: color 1.5s ease;
+	-o-transition: color 1.5s ease;
+	-ms-transition: color 1.5s ease;
 }
 
 .webdesigntuts-workshop li a:hover
 {
-	color: rgba(255, 99, 71, 1.0);
+	color: rgba(255, 99, 71, 1.0); /* orange */
 }
 
 /*
